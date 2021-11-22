@@ -29,7 +29,7 @@ int main(void) {
     /* Insert DDR and PORT initializations */
     DDRC = 0xFF; PORTC = 0x00;
 
-    unsigned char insertData = 0x66;
+    unsigned char insertData = 0x99;
     /* Insert your solution below */
     while (1) {
 	transmit_data(insertData);
