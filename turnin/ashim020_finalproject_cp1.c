@@ -6,6 +6,8 @@
  *
  *	I acknowledge all content contained herein, excluding template or example
  *	code, is my own original work.
+ *	
+ * 	Demo: https://drive.google.com/file/d/1ZE2cj-ruSc991gIlRVW9uY7TFCptddZH/view?usp=sharing
  */
 #include <avr/io.h>
 #ifdef _SIMULATE_
@@ -27,7 +29,7 @@ int main(void) {
     /* Insert DDR and PORT initializations */
     DDRC = 0xFF; PORTC = 0x00;
 
-    unsigned char insertData = 0x66;
+    unsigned char insertData = 0x99;
     /* Insert your solution below */
     while (1) {
 	transmit_data(insertData);
